@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Travel Blog</title>
+   <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+   <!-- Header Section -->
+   <header class="header">
+      <div class="logo">
+         <a href="index.html"> Travel Blog</a>
+        
+      </div>
+      <!-- Hamburger button -->
+      <button class="hamburger" onclick="toggleNavbar()">☰</button>
+      <!-- Navbar links and search bar -->
+      <nav class="navbar">
+         <div class="nav-links">
+            <a href="blog.html">Blog</a>
+            <a href="destinations.html">Destinations</a>
+         </div>
+         <input type="text" placeholder="Search by location" class="search-bar">
+      </nav>
+   </header>
+   
+
+   <!-- Parallax Section -->
+   <section class="parallax parallax-image1">
+      <div class="overlay">
+         <h1>Explore the World</h1>
+         <p>Discover beautiful destinations and adventures.</p>
+      </div>
+   </section>
+
+     <!-- Featured Blogs Section -->
+<section class="featured-blogs">
+   <h2>Featured Blogs</h2>
+   <div class="blogs-grid">
+      <!-- Blog 1 -->
+      <div class="blog-item">
+         <img src="/images/blog1.jpg" alt="Blog 1">
+         <h3>Exploring the Alps</h3>
+         <p class="short-content">Discover the stunning landscapes and adventure opportunities in the Alps.</p>
+         <p class="full-content" style="display: none;">The Alps offer a wide range of activities, from skiing and snowboarding in winter to hiking and mountain biking in summer. It's a paradise for nature lovers and adventure seekers alike.</p>
+         <button class="read-more">Read More</button>
+      </div>
+      <!-- Blog 2 -->
+      <div class="blog-item">
+         <img src="images/blog2.jpg" alt="Blog 2">
+         <h3>Safari in Kenya</h3>
+         <p class="short-content">Experience the wild beauty of Kenya's safaris and diverse wildlife.</p>
+         <p class="full-content" style="display: none;">Kenya's safaris are world-renowned for their abundant wildlife, including the Big Five: lions, leopards, rhinos, elephants, and buffalo. Explore the vast savannas and get up close with nature's most majestic creatures.</p>
+         <button class="read-more">Read More</button>
+      </div>
+      <!-- Blog 3 -->
+      <div class="blog-item">
+         <img src="images/blog7.jpg" alt="Blog 3">
+         <h3>Beaches of Bali</h3>
+         <p class="short-content">Relax and rejuvenate on the serene beaches of Bali.</p>
+         <p class="full-content" style="display: none;">Bali is famous for its crystal-clear waters, white sandy beaches, and vibrant coral reefs. Whether you're looking for relaxation or water sports, Bali's beaches offer something for everyone.</p>
+         <button class="read-more">Read More</button>
+      </div>
+      <!-- Blog 4 -->
+      <div class="blog-item">
+         <img src="images/blog4.jpg" alt="Blog 4">
+         <h3>Ancient Temples of Kyoto</h3>
+         <p class="short-content">Explore the rich history and culture of Kyoto's ancient temples.</p>
+         <p class="full-content" style="display: none;">Kyoto is home to some of Japan's most beautiful temples, including Kinkaku-ji, the Golden Pavilion, and Fushimi Inari-taisha. These temples offer a glimpse into Japan's ancient traditions and spiritual heritage.</p>
+         <button class="read-more">Read More</button>
+      </div>
+   </div>
+</section>
+
+   
+
+   <!-- Footer Section -->
+   <footer class="footer">
+      <div class="footer-content">
+         <p>© 2024 Travel Blog | All Rights Reserved</p>
+         <p>Follow us on:
+            <a href="#">Instagram</a> |
+            <a href="#">Facebook</a> |
+            <a href="#">Twitter</a>
+         </p>
+      </div>
+   </footer>
+
+   <script src="scripts/main.js"></script>
+</body>
+</html>
